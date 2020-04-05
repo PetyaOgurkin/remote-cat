@@ -1,0 +1,25 @@
+{
+  "name": "remote-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "ffmpeg-static": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetyaOgurkin/remote-cat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetyaOgurkin/remote-cat/issues"
+  },
+  "homepage": "https://github.com/PetyaOgurkin/remote-cat#readme"
+}
