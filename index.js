@@ -12,8 +12,6 @@ const rand = (min, max) => +(Math.random() * (max - min) + min).toFixed();
 bot.on('ready', () => {
     bot.generateInvite(["ADMINISTRATOR"]).then(link => {
         console.log(link);
-        console.log(token);
-        
     });
 });
 
