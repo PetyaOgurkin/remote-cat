@@ -12,13 +12,15 @@ const rand = (min, max) => +(Math.random() * (max - min) + min).toFixed();
 bot.on('ready', () => {
     bot.generateInvite(["ADMINISTRATOR"]).then(link => {
         console.log(link);
+        console.log(token);
+        
     });
 });
 
 bot.on('message', msg => {
     if (msg.content === prefix + 'кис-кис' && !start_flag) {
         console.log('started');
-        bot.setInterval(walk, rand(600000, 900000))
+        bot.setInterval(walk, rand(20000, 20000))
         start_flag = true;
     }
 
