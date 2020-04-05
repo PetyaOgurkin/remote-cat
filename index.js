@@ -18,7 +18,7 @@ bot.on('ready', () => {
 bot.on('message', msg => {
     if (msg.content === prefix + 'кис-кис' && !start_flag) {
         console.log('started');
-        bot.setInterval(walk, rand(20000, 20000))
+        bot.setInterval(walk, rand(600000, 900000))
         start_flag = true;
     }
 
