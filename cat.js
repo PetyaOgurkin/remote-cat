@@ -6,9 +6,9 @@ module.exports = class Cat {
         this.enabled = false;
         this.walkTimer;
         this.meowTimer;
-        this.insideInterval = insideInterval;
-        this.outsideInterval = outsideInterval;
-        this.meowInterval = meowInterval;
+        this.insideInterval = +insideInterval;
+        this.outsideInterval = +outsideInterval;
+        this.meowInterval = +meowInterval;
     }
 
     async on(textChannel) {
