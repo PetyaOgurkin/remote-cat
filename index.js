@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
-const config = require('./botconfig.json');
 
 const bot = new Discord.Client();
 
-const token = config.token;
-const prefix = config.prefix;
+const token = process.env.TOKEN;
+const prefix = "<Наташа>";
 
 let start_flag = false;
 
